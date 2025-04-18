@@ -1,0 +1,226 @@
+{
+  "ph_rate": {
+    "ranges": {
+      "optimal": [
+        6.0,
+        7.5
+      ],
+      "normal": [
+        5.0,
+        8.0
+      ],
+      "warning": [
+        4.5,
+        8.5
+      ],
+      "critical": [
+        0,
+        14
+      ]
+    },
+    "scientific_background": "\n            Urine pH is a crucial indicator of your body's acid-base balance, regulated primarily by the kidneys. \n            The kidneys maintain blood pH by excreting excess acids or bases into urine. Normal urine pH typically \n            ranges from 5.0 to 8.0, with an optimal range of 6.0 to 7.5.\n            \n            The pH level is influenced by:\n            - Diet (high-protein diets tend to lower pH, while vegetarian diets may increase it)\n            - Metabolic processes\n            - Respiratory function\n            - Kidney function\n            - Certain medications\n        ",
+    "implications": {
+      "low": {
+        "causes": [
+          "High-protein diet",
+          "Metabolic acidosis",
+          "Uncontrolled diabetes",
+          "Diarrhea",
+          "Starvation",
+          "Respiratory alkalosis"
+        ],
+        "risks": [
+          "Increased risk of kidney stones",
+          "Potential metabolic disorders",
+          "Possible urinary tract infections"
+        ],
+        "emergency_signs": [
+          "Severe abdominal pain",
+          "Difficulty breathing",
+          "Extreme fatigue",
+          "Confusion or disorientation"
+        ]
+      },
+      "high": {
+        "causes": [
+          "Vegetarian diet",
+          "Urinary tract infection",
+          "Kidney problems",
+          "Metabolic alkalosis",
+          "Certain medications (e.g., antacids)",
+          "Respiratory acidosis"
+        ],
+        "risks": [
+          "Formation of calcium phosphate stones",
+          "Bacterial growth in urinary tract",
+          "Potential kidney function issues"
+        ],
+        "emergency_signs": [
+          "Severe back pain",
+          "Blood in urine",
+          "High fever",
+          "Persistent nausea/vomiting"
+        ]
+      }
+    }
+  },
+  "turbidity_score": {
+    "ranges": {
+      "optimal": [
+        20,
+        40
+      ],
+      "normal": [
+        10,
+        50
+      ],
+      "warning": [
+        0,
+        60
+      ],
+      "critical": [
+        60,
+        100
+      ]
+    },
+    "scientific_background": "\n            Urine turbidity measures the cloudiness of urine, which can indicate the presence of cells, proteins, \n            bacteria, or crystals. Normal urine should be clear to slightly cloudy. Increased turbidity often \n            suggests the presence of:\n            \n            - White blood cells (indicating infection)\n            - Red blood cells\n            - Epithelial cells\n            - Bacteria\n            - Crystals\n            - Protein\n            - Mucus\n            \n            The measurement is particularly important for:\n            - Early detection of urinary tract infections\n            - Monitoring kidney function\n            - Identifying metabolic disorders\n            - Detecting dehydration levels\n        ",
+    "implications": {
+      "low": {
+        "indications": [
+          "Normal hydration",
+          "Healthy kidney function",
+          "Absence of infection"
+        ]
+      },
+      "high": {
+        "causes": [
+          "Urinary tract infection",
+          "Kidney inflammation",
+          "Dehydration",
+          "Proteinuria",
+          "Crystalluria"
+        ],
+        "risks": [
+          "Ongoing infection",
+          "Kidney stone formation",
+          "Kidney disease progression"
+        ],
+        "emergency_signs": [
+          "Severe pain during urination",
+          "Fever above 101\u00b0F (38.3\u00b0C)",
+          "Lower back pain",
+          "Blood in urine"
+        ]
+      }
+    }
+  },
+  "color": {
+    "ranges": {
+      "optimal": {
+        "r": [
+          240,
+          255
+        ],
+        "g": [
+          210,
+          230
+        ],
+        "b": [
+          50,
+          150
+        ]
+      },
+      "description": "Pale yellow to amber"
+    },
+    "scientific_background": "\n            Urine color is a vital indicator of hydration status and potential health issues. The color comes \n            primarily from urochrome, a pigment produced during the breakdown of hemoglobin. Normal urine color \n            ranges from pale yellow to amber, depending on urine concentration.\n            \n            Color variations can indicate:\n            - Hydration status\n            - Diet influences\n            - Medication effects\n            - Medical conditions\n            - Liver function\n            - Kidney function\n            \n            The concentration of urine (and thus its color) is controlled by antidiuretic hormone (ADH) and \n            reflects the body's water balance.\n        ",
+    "color_meanings": {
+      "pale_yellow": "Optimal hydration",
+      "dark_yellow": "Possible dehydration",
+      "amber": "Significant dehydration",
+      "orange": "Possible bile duct issues or dehydration",
+      "red_pink": "May indicate blood, medications, or certain foods",
+      "brown": "Possible liver issues or severe dehydration",
+      "blue_green": "Certain medications or rare medical conditions"
+    }
+  },
+  "health_categories": {
+    "healthy": {
+      "description": "\n                A healthy urinalysis indicates optimal kidney function and overall health. All parameters \n                fall within ideal ranges, suggesting:\n                - Proper hydration\n                - Good kidney function\n                - Balanced diet\n                - Absence of infection or inflammation\n            ",
+      "recommendations": [
+        "Maintain current healthy lifestyle habits",
+        "Stay well-hydrated (2-3 liters of water daily)",
+        "Continue balanced diet rich in fruits and vegetables",
+        "Regular exercise (150 minutes moderate activity weekly)",
+        "Annual health check-ups",
+        "Monitor urine parameters periodically",
+        "Avoid excess sodium and processed foods",
+        "Get adequate sleep (7-9 hours nightly)"
+      ]
+    },
+    "normal": {
+      "description": "\n                Parameters are within acceptable ranges but may show slight variations from optimal values. \n                This suggests:\n                - Generally good health with minor variations\n                - Possible lifestyle factors affecting results\n                - Room for improvement in some areas\n            ",
+      "recommendations": [
+        "Increase water intake gradually throughout the day",
+        "Review diet for balanced nutrition",
+        "Consider moderate exercise if sedentary",
+        "Monitor parameters more frequently",
+        "Keep a health diary to track changes",
+        "Consult healthcare provider if parameters trend toward abnormal",
+        "Evaluate salt intake and dietary habits",
+        "Review medication effects if applicable"
+      ]
+    },
+    "anomaly": {
+      "description": "\n                Some parameters show significant deviation from normal ranges, indicating:\n                - Possible early signs of health issues\n                - Need for lifestyle modifications\n                - Importance of closer monitoring\n                \n                While not immediately dangerous, these variations warrant attention and possibly medical consultation.\n            ",
+      "recommendations": [
+        "Schedule a follow-up test within 1-2 weeks",
+        "Document any symptoms or changes in health",
+        "Increase water intake to 3+ liters daily",
+        "Monitor and record daily urination patterns",
+        "Evaluate diet and eliminate potential irritants",
+        "Consider stress reduction techniques",
+        "Prepare health history for medical consultation",
+        "Track medications and supplements"
+      ],
+      "medical_attention": "Recommended within 2-4 weeks if parameters persist"
+    },
+    "consult_doctor": {
+      "description": "\n                Multiple parameters show concerning deviations that require medical evaluation:\n                - Significant variation from normal ranges\n                - Potential underlying health conditions\n                - Need for professional medical assessment\n                \n                These results suggest the importance of timely medical consultation to prevent potential complications.\n            ",
+      "recommendations": [
+        "Schedule doctor appointment within 1-2 weeks",
+        "Maintain detailed symptom diary",
+        "Collect family medical history",
+        "List all current medications and supplements",
+        "Take photos of any visible symptoms",
+        "Monitor and record vital signs daily",
+        "Avoid strenuous physical activity",
+        "Follow basic dietary restrictions"
+      ],
+      "emergency_signs": [
+        "Severe pain or discomfort",
+        "High fever",
+        "Blood in urine",
+        "Extreme fatigue",
+        "Difficulty breathing"
+      ]
+    },
+    "critical": {
+      "description": "\n                IMMEDIATE MEDICAL ATTENTION REQUIRED\n                \n                Results indicate potentially serious health conditions requiring immediate medical evaluation:\n                - Severe abnormalities in multiple parameters\n                - High risk of complications\n                - Possible medical emergency\n                \n                These results suggest urgent medical care is necessary to prevent serious health complications.\n            ",
+      "immediate_actions": [
+        "Seek emergency medical care immediately",
+        "Contact emergency services if severe symptoms present",
+        "Do not wait for symptoms to worsen",
+        "Gather all recent medical records",
+        "List all medications currently taking",
+        "Note time of last food/drink intake",
+        "Prepare for possible hospital admission"
+      ],
+      "emergency_contacts": [
+        "Emergency Services: 911",
+        "Poison Control: 1-800-222-1222",
+        "Local Emergency Room",
+        "Primary Care Physician"
+      ]
+    }
+  }
+}
